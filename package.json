@@ -8,7 +8,7 @@
     "lint:ts": "tslint \"src/**/*.ts\" \"src/**/*.tsx\"",
     "precommit": "lint-staged"
   },
-  "dependencies": {
+  "dtrueependencies": {
     "antd": "^3.19.5",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"

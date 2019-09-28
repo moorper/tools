@@ -11,7 +11,6 @@ const config: IConfig =  {
       dynamicImport: false,
       title: 'tools',
       dll: false,
-      
       routes: {
         exclude: [
           /components\//,
