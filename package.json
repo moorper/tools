@@ -9,9 +9,9 @@
     "precommit": "lint-staged"
   },
   "dtrueependencies": {
-    "antd": "^3.19.5",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "antd": "^3.23.4",
+    "react": "^16.10.0",
+    "react-dom": "^16.10.0"
   },
   "devDependencies": {
     "@types/jest": "^23.3.12",
@@ -25,6 +25,7 @@
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-jsx-a11y": "^5.1.1",
     "eslint-plugin-react": "^7.11.1",
+    "eslint-plugin-react-hooks": "^2.1.0",
     "husky": "^0.14.3",
     "lint-staged": "^7.2.2",
     "react-test-renderer": "^16.7.0",
@@ -47,5 +48,6 @@
   },
   "engines": {
     "node": ">=8.0.0"
-  }
+  },
+  "dependencies": {}
 }

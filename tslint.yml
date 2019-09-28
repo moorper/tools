@@ -3,7 +3,7 @@ extends:
   - tslint-react
   - tslint-eslint-rules
 jsRules:
-  max-line-length": 120
+  max-line-length: 120
 rules:
   eofline: true
   no-console: true
