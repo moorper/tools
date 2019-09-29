@@ -2,11 +2,9 @@ import React, { useState, useEffect } from 'react';
 import { Input, Button } from 'antd';
 
 
-const ssr: React.FunctionComponent = (props) => {
-  // eslint-disable-next-line react-hooks/rules-of-hooks
+const Ssr: React.FunctionComponent = (props) => {
   const [count, setCount] = useState(0);
 
-  // eslint-disable-next-line react-hooks/rules-of-hooks
   useEffect(() => {
     console.log('A');
   });
@@ -26,4 +24,4 @@ const ssr: React.FunctionComponent = (props) => {
 };
 
 
-export default ssr;
+export default Ssr;
